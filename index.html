@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>I'm Sorry ❤️</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#ff9a9e,#fad0c4);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.card{
+    background:white;
+    padding:35px;
+    width:90%;
+    max-width:500px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,.2);
+}
+
+h1{
+    color:#ff4d6d;
+    font-size:38px;
+    margin-bottom:15px;
+}
+
+p{
+    color:#444;
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:20px;
+}
+
+button{
+    padding:12px 28px;
+    border:none;
+    border-radius:30px;
+    background:#ff4d6d;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    background:#e63956;
+}
+
+#message{
+    margin-top:20px;
+    font-size:22px;
+    color:#ff1744;
+    font-weight:bold;
+}
+</style>
+
+</head>
+<body>
+
+<div class="card">
+<h1>I'm Sorry ❤️</h1>
+
+<p>
+Dear Sanvii,<br><br>
+
+I know I made mistakes.<br>
+I'm truly sorry for hurting you.<br><br>
+
+You mean a lot to me, and I genuinely hope you can forgive me someday.<br><br>
+
+No matter what happens, I will always respect your happiness. 💖
+</p>
+
+<button onclick="showMessage()">Click Here</button>
+
+<div id="message"></div>
+
+</div>
+
+<script>
+function showMessage(){
+document.getElementById("message").innerHTML="💗 I'm Really Sorry, Sanvii 💗";
+}
+</script>
+
+</body>
+</html>
